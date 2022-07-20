@@ -1,0 +1,32 @@
+section h1{
+text-align: center;
+margin-bottom:5% ; 
+}
+#contain{
+border: 1px solid blanchedalmond;
+background-color: blanchedalmond;
+width: 50%;
+margin: 10% 10%;
+}
+input {
+width: 80%;
+height: 30px;
+margin: 5px 10%;
+}
+button {
+width: 80%;
+height: 30px;
+margin: 5px 10%;
+color: burlywood;
+}
+
+.signuperror {
+text-align: center;
+color: red;
+margin-bottom: 20px;
+}
+.signupsuccess {
+text-align: center;
+color : green;
+margin-bottom: 20px;
+}

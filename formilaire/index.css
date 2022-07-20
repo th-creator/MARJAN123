@@ -1,0 +1,94 @@
+
+#container1 {
+    background-color: rgb(248, 247, 247) ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    line-height: 150%;
+    flex-wrap: wrap;
+}   
+
+#h1 {
+    padding-top: 10px ;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+#sec1 {
+    width: 40%;
+    padding: 3% 0 1px 5%;
+}
+#sec1 ul {
+    margin-left: 3.5%;
+    }
+#sec1 p ,#sec1 h1,#sec1 ul li,#sec1 #text{
+    margin-bottom: 15px;  
+}
+#sec2 {
+    border: 1px solid white ;
+    border-radius: 5px;
+    background-color: white;
+    margin: 4% 8% 9% 9%;
+    width: 37.5%;
+    height: 70%;
+    text-align: center;
+}
+#form {
+    margin: 60px auto 40px auto;
+}
+.text {
+    font-size: 30px;
+}
+#txthld {
+    margin-top: -20px;
+    margin-bottom: 25px;  
+}
+input[type="text"],input[type="password"] {
+    width: 85%;
+    height: 50px;
+    padding-left: 20px ;
+    margin-bottom: 30px;
+}
+input[type='checkbox'],#checkbox {
+    float: left;
+    margin-left: 5%;
+    margin-top: -15px;
+}
+input[type='checkbox'] {
+    margin-right: -3%;
+    margin-top: -10px;
+    height: 20px;
+    width: 20px;
+}   
+#btn1 {
+    width: 91%;
+    height: 55px;
+    padding-left: 40px ;
+    background-color: #2980b9;
+    border-color: #2980b9;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style :solid ;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+#btn1:hover {
+    opacity: 0.75;
+}
+#btn1:focus{
+    border-style:ridge;
+    border-color: aliceblue;
+}
+#para{
+    font-size: 17px;
+}
+@media (max-width: 820px) {
+    #sec1 {
+        width: 600px;
+    }
+    #sec2 {
+        width: 70%;
+        margin:5% 15%;
+    }
+}
